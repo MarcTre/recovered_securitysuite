@@ -1,0 +1,22 @@
+# # Ignore TensorFlow Lite models
+# *.tflite
+# # Ignore task files
+# *.task
+# # Ignore executables
+env.py
+# # Ignore specific Unix Executables
+# main
+# face_landmark_detection
+# audio_classification
+# # Ignore .zip files
+build/
+# !build/
+dist/
+# !dist/
+dist_old/
+# !dist/
+media_pipe/
+# !media_pipe/
+__pycache__/
+# !__pycache__/
+*.spec
